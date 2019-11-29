@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pay"
+    android:orientation="vertical"
+    android:background="#8C9EFF">
+
+    <TextView
+        android:id="@+id/restoranpage_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="Johnny's Hamburgers"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/pay_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Items: "
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/pay_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Table: "
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/pay_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Price: "
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="#304FFE"
+        android:layout_margin="10dp"
+        android:padding="8dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="#00C853"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/visa_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visa Card"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="#00C853"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
